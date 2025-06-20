@@ -1,0 +1,51 @@
+﻿------ Rebuild All started: Project: Atmega128, Configuration: Debug AVR ------
+Build started.
+Project "Atmega128.cproj" (Clean target(s)):
+Target "Clean" in file "C:\Program Files (x86)\Atmel\Studio\7.0\Vs\Compiler.targets" from project "C:\Users\sergi\Documents\GITHUB\LABSIS20202021\Relatorio_2\Projecto\SunTrack\Atmega128\Atmega128.cproj" (entry point):
+	Task "RunCompilerTask"
+		Shell Utils Path C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils
+		C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils\make.exe clean 
+		rm -rf  Libraria/74hc595.o Libraria/atmega128analog.o Libraria/atmega128i2c.o Libraria/atmega128timer.o Libraria/atmega128uart.o Libraria/clock.o Libraria/eeprom.o Libraria/function.o Libraria/keypad.o Libraria/lcd.o Libraria/lfsm.o Libraria/mm74c923.o Libraria/pcf8563rtc.o Libraria/rotenc.o main.o   
+		rm -rf  Libraria/74hc595.d Libraria/atmega128analog.d Libraria/atmega128i2c.d Libraria/atmega128timer.d Libraria/atmega128uart.d Libraria/clock.d Libraria/eeprom.d Libraria/function.d Libraria/keypad.d Libraria/lcd.d Libraria/lfsm.d Libraria/mm74c923.d Libraria/pcf8563rtc.d Libraria/rotenc.d main.d   
+		rm -rf "Atmega128.elf" "Atmega128.a" "Atmega128.hex" "Atmega128.lss" "Atmega128.eep" "Atmega128.map" "Atmega128.srec" "Atmega128.usersignatures"
+	Done executing task "RunCompilerTask".
+Done building target "Clean" in project "Atmega128.cproj".
+Done building project "Atmega128.cproj".
+
+Build succeeded.
+------ Rebuild All started: Project: Atmega128, Configuration: Debug AVR ------
+Build started.
+Project "Atmega128.cproj" (default targets):
+Target "PreBuildEvent" skipped, due to false condition; ('$(PreBuildEvent)'!='') was evaluated as (''!='').
+Target "CoreBuild" in file "C:\Program Files (x86)\Atmel\Studio\7.0\Vs\Compiler.targets" from project "C:\Users\sergi\Documents\GITHUB\LABSIS20202021\Relatorio_2\Projecto\SunTrack\Atmega128\Atmega128.cproj" (target "Build" depends on it):
+	Task "RunCompilerTask"
+		Shell Utils Path C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils
+		C:\Program Files (x86)\Atmel\Studio\7.0\shellUtils\make.exe all --jobs 4 --output-sync 
+		Building file: ../Libraria/74hc595.c
+		Invoking: AVR/GNU C Compiler : 5.4.0
+		"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe"  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../Libraria"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128" -c -std=gnu99 -MD -MP -MF "Libraria/74hc595.d" -MT"Libraria/74hc595.d" -MT"Libraria/74hc595.o"   -o "Libraria/74hc595.o" "../Libraria/74hc595.c" 
+		Finished building: ../Libraria/74hc595.c
+		make: *** No rule to make target '../Libraria/clock.c', needed by 'Libraria/clock.o'.  Stop.
+		make: *** Waiting for unfinished jobs....
+		Building file: ../Libraria/atmega128i2c.c
+		Invoking: AVR/GNU C Compiler : 5.4.0
+		"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe"  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../Libraria"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128" -c -std=gnu99 -MD -MP -MF "Libraria/atmega128i2c.d" -MT"Libraria/atmega128i2c.d" -MT"Libraria/atmega128i2c.o"   -o "Libraria/atmega128i2c.o" "../Libraria/atmega128i2c.c" 
+		Finished building: ../Libraria/atmega128i2c.c
+		Building file: ../Libraria/atmega128analog.c
+		Invoking: AVR/GNU C Compiler : 5.4.0
+		"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe"  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../Libraria"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128" -c -std=gnu99 -MD -MP -MF "Libraria/atmega128analog.d" -MT"Libraria/atmega128analog.d" -MT"Libraria/atmega128analog.o"   -o "Libraria/atmega128analog.o" "../Libraria/atmega128analog.c" 
+		Finished building: ../Libraria/atmega128analog.c
+		Building file: ../Libraria/atmega128timer.c
+		Invoking: AVR/GNU C Compiler : 5.4.0
+		"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe"  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../Libraria"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128" -c -std=gnu99 -MD -MP -MF "Libraria/atmega128timer.d" -MT"Libraria/atmega128timer.d" -MT"Libraria/atmega128timer.o"   -o "Libraria/atmega128timer.o" "../Libraria/atmega128timer.c" 
+		Finished building: ../Libraria/atmega128timer.c
+		Building file: ../Libraria/atmega128uart.c
+		Invoking: AVR/GNU C Compiler : 5.4.0
+		"C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avr8-gnu-toolchain\bin\avr-gcc.exe"  -x c -funsigned-char -funsigned-bitfields -DDEBUG  -I"C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\include" -I"../Libraria"  -O1 -ffunction-sections -fdata-sections -fpack-struct -fshort-enums -mrelax -g2 -Wall -mmcu=atmega128 -B "C:\Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.3.300\gcc\dev\atmega128" -c -std=gnu99 -MD -MP -MF "Libraria/atmega128uart.d" -MT"Libraria/atmega128uart.d" -MT"Libraria/atmega128uart.o"   -o "Libraria/atmega128uart.o" "../Libraria/atmega128uart.c" 
+		Finished building: ../Libraria/atmega128uart.c
+	Done executing task "RunCompilerTask" -- FAILED.
+Done building target "CoreBuild" in project "Atmega128.cproj" -- FAILED.
+Done building project "Atmega128.cproj" -- FAILED.
+
+Build FAILED.
+========== Rebuild All: 0 succeeded, 1 failed, 0 skipped ==========
