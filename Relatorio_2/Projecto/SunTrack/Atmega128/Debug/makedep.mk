@@ -12,23 +12,13 @@ Libraria\atmega128timer.c
 
 Libraria\atmega128uart.c
 
-Libraria\clock.c
-
-Libraria\eeprom.c
-
 Libraria\function.c
 
 Libraria\keypad.c
 
 Libraria\lcd.c
 
-Libraria\lfsm.c
-
-Libraria\mm74c923.c
-
 Libraria\pcf8563rtc.c
-
-Libraria\rotenc.c
 
 main.c
 

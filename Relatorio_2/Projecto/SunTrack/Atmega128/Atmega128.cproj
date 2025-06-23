@@ -30,15 +30,15 @@
     <EraseKey />
     <AsfFrameworkConfig>
       <framework-data>
-  <options />
-  <configurations />
-  <files />
-  <documentation help="" />
-  <offline-documentation help="" />
-  <dependencies>
-    <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.47.0" />
-  </dependencies>
-</framework-data>
+        <options />
+        <configurations />
+        <files />
+        <documentation help="" />
+        <offline-documentation help="" />
+        <dependencies>
+          <content-extension eid="atmel.asf" uuidref="Atmel.ASF" version="3.47.0" />
+        </dependencies>
+      </framework-data>
     </AsfFrameworkConfig>
     <avrtool>com.atmel.avrdbg.tool.atmelice</avrtool>
     <avrtoolserialnumber>J41800026917</avrtoolserialnumber>
@@ -174,12 +174,6 @@
     <Compile Include="Libraria\atmega128uart.h">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Libraria\clock.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Libraria\eeprom.c">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="Libraria\function.c">
       <SubType>compile</SubType>
     </Compile>
@@ -195,19 +189,10 @@
     <Compile Include="Libraria\lcd.c">
       <SubType>compile</SubType>
     </Compile>
-    <Compile Include="Libraria\lfsm.c">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Libraria\mm74c923.c">
-      <SubType>compile</SubType>
-    </Compile>
     <Compile Include="Libraria\pcf8563rtc.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="Libraria\pcf8563rtc.h">
-      <SubType>compile</SubType>
-    </Compile>
-    <Compile Include="Libraria\rotenc.c">
       <SubType>compile</SubType>
     </Compile>
     <Compile Include="main.c">
